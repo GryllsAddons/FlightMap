@@ -1,5 +1,5 @@
 # FlightMap
-This is a re-host of Dhask's FlightMap v1.12-1
+This is a re-host of Dhask's FlightMap v1.12-1.
 
 Commands:
 /flightmap /fmap
