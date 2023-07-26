@@ -428,6 +428,12 @@ FlightMapUtil.addFlightsForNode = lAddFlightsForNode;
 
 -- Update the flight tooltip for a zone
 local function lUpdateTooltip(zoneName)
+    -- Hide tooltip if LevelRange-Turtle is loaded
+    if IsAddOnLoaded("LevelRange-Turtle") then
+        FlightMapTooltip:Hide();
+        return;
+    end
+
     -- No zone name, no tooltip!
     if not zoneName or zoneName == "" then
         FlightMapTooltip:Hide();
@@ -847,4 +853,3 @@ function FlightMapOptionsCheckButton_OnClick()
         end
     end
 end
-
