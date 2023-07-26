@@ -1,5 +1,5 @@
 # FlightMap
-This is a re-host of Dhask's FlightMap v1.12-1.
+Dhask's FlightMap v1.12-1 with support for [LevelRange-Turtle](https://github.com/Tenyar97/LevelRange-Turtle).
 
 Commands:
 /flightmap /fmap
